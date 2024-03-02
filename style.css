@@ -62,6 +62,10 @@ nav {
     width: 15px;
     height: 13.75px;
 }
+a{
+    text-decoration: none;
+}
+
 
 input {
     width: 480px;

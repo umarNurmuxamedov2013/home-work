@@ -16,7 +16,8 @@
 
 
 .container {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -66,6 +67,7 @@ nav {
     cursor: pointer;
 }
 
+
 .btn1 {
     display: flex;
     justify-content: space-between;
@@ -83,8 +85,83 @@ nav {
     border: none;
     text-decoration: none;
     margin-top: 80px;
+    border-radius: 5px;
 }
 
-body{
+body {
     background-color: var(--bg-color);
+}
+
+.belgium_img {
+    margin-top: 80px;
+}
+
+.left_right {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+
+.belgium_text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.text1 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+
+}
+
+.text2 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: grey;
+
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn2 {
+    background: var(--bg-color2);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.104931);
+    border-radius: 2px;
+    border: none;
+    width: 96px;
+    height: 28px;
+    color: #FFFFFF;
+}
+
+.buttons {
+    width: 451px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 68px;
+}
+
+.button_text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+
 }
